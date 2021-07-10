@@ -1,0 +1,87 @@
+/*------------------ Base Css Classes ------------------*/
+.background {
+    background: rgb(4, 112, 145);
+    color: white;
+}
+
+.bold-line {
+    height: 6px;
+    background-color: black;
+    width: 100%;
+    margin: -7px 0;
+}
+
+.thick-line {
+    height: 4px;
+    background-color: black;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: 800;
+    color: black;
+}
+
+.margin-bottom {
+    margin-bottom: 45px;
+}
+
+#space-top {
+    margin-top: 30px;
+}
+/*--------------- Form Classes --------------*/
+#form-style {
+    background-color: rgba(161, 233, 255, 0.795);
+    max-width: 768px;
+    margin: auto;
+    padding: 20px 24px;
+}
+
+.zip-code {
+    max-width: 50%;
+    text-align: right;
+}
+
+.state-drop {
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+}
+.newsletter-margin {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.newsletter-input {
+    margin-left: 0;
+}
+
+.top-margin {
+    margin-top: 20px;
+}
+
+.display-block {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .zip-code {
+        max-width: 25%;
+    }
+    
+    #textarea-label {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}

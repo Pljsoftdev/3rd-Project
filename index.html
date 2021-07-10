@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <title>The Code Review</title>
+    <link rel="stylesheet" href="css/form-styles.css">
+    <link rel="stylesheet" href="css/form-selectors.css">
+
+  </head>
+
+  <body>
+
+  <header>
+    <h1>THE CODE REVIEW</h1>
+  </header>
+
+    <div id="form-style">
+        <form action="index.html" method="post" id="newsletter" class="form-container"></form>
+
+            <h2 class="text-center bold">SignUp for our Newsletter</h2>
+            
+            <p class="text-center margin-bottom">Get the latest news on how your code is doing right in your inbox</p>
+            
+            <hr class="bold-line">
+            <hr class="thick-line">
+
+            <fieldset >
+
+                <legend class="bold text-left">Contact Information</legend>
+
+                    <label for="name" class="float-left block line-break">Full Name</label>
+                    <input class="text-right" type="text" id="name" name="user_name" placeholder="* Required">
+                
+                    <label for="mail" class="float-left block line-break">Email Address</label>
+                    <input class="text-right" type="email" id="mail" name="user_email" placeholder="* Required">
+
+                    <label for="phone" class="float-left block line-break">Phone Number</label>
+                    <input class="text-right" type="tel" id="phone" name="user-phone" placeholder="Ex. (123) 456 - 7890">
+                
+                    <label for="street-address" class="float-left block line-break">Street Address *</label>
+                    <input class="text-right" type="text" id="street-address" name="user-street-address" placeholder="Ex. 901 Candycane Ln.">
+                
+                    <label for="city" class="float-left block line-break">City</label>
+                    <input class="text-right" type="text" id="city" name="user-city" placeholder="Ex. Montgomery">
+                
+                    <label for="state" class="float-left block line-break">State</label>
+                    <select name="user-state" id="state" form="newsletter" class="state-drop">
+                        <option value="choose state" disabled selected class="grey">Choose State</option>
+                        <option value="ak">AK</option>
+                        <option value="al">AL</option>
+                        <option value="ar">AR</option>
+                        <option value="az">AZ</option>
+                        <option value="ca">CA</option>
+                        <option value="co">CO</option>
+                        <option value="ct">CT</option>
+                        <option value="de">DE</option>
+                        <option value="fl">FL</option>
+                        <option value="ga">GA</option>
+                        <option value="hi">HI</option>
+                        <option value="ia">IA</option>
+                        <option value="id">ID</option>
+                        <option value="il">IL</option>
+                        <option value="in">IN</option>
+                        <option value="ks">KS</option>
+                        <option value="ky">KY</option>
+                        <option value="la">LA</option>
+                        <option value="ma">MA</option>
+                        <option value="md">MD</option>
+                        <option value="me">ME</option>
+                        <option value="mi">MI</option>
+                        <option value="mn">MN</option>
+                        <option value="mo">MO</option>
+                        <option value="ms">MS</option>
+                        <option value="mt">MT</option>
+                        <option value="nc">NC</option>
+                        <option value="nd">ND</option>
+                        <option value="ne">NE</option>
+                        <option value="nh">NH</option>
+                        <option value="nj">NJ</option>
+                        <option value="nm">NM</option>
+                        <option value="nv">NV</option>
+                        <option value="ny">NY</option>
+                        <option value="oh">OH</option>
+                        <option value="ok">OK</option>
+                        <option value="or">OR</option>
+                        <option value="pa">PA</option>
+                        <option value="ri">RI</option>
+                        <option value="sc">SC</option>
+                        <option value="sd">SD</option>
+                        <option value="tn">TN</option>
+                        <option value="tx">TX</option>
+                        <option value="ut">UT</option>
+                        <option value="va">VA</option>
+                        <option value="vt">VT</option>
+                        <option value="wa">WA</option>
+                        <option value="wi">WI</option>
+                        <option value="wv">WV</option>
+                        <option value="wy">WY</option>
+                    </select>
+                
+                    <label for="zip" class="float-left block top-margin line-break">Zip Code</label>
+                    <input type="text" id="zip" name="user-zip" class="text-right zip-code float-right" placeholder="5 Digit zip">
+            
+                </fieldset>
+        </div>
+                <hr class="thick-line">
+
+
+            <fieldset>
+                    <legend class="bold text-left">Newsletter</legend>
+
+                    <p class="text-left newsletter-margin">Select the Newsletters you would like to receive:</p>
+
+                    <input type="checkbox" id="html-news" value="html-news" name="html-news" class="newsletter-input">
+                    <label for="html-news" class="float-right">HTML News</label><br>
+
+                    <input type="checkbox" id="css-news" value="css-news" name="css-news" class="newsletter-input">
+                    <label for="css-news" class="float-right">CSS News</label><br>
+
+                    <input type="checkbox" id="javascript-news" value="javascript-news" name="javascript-news" class="newsletter-input">
+                    <label for="javascript-news" class="float-right">Javascript News</label>
+
+                    <p class="text-left newsletter-margin">Newsletter Format:</p>
+                    
+                    <input type="radio" id="html" value="html" name="format" class="newsletter-input">
+                    <label class="float-right" for="html">Html</label><br>
+
+                    <input type="radio" id="plain-text" value="plain-text" name="format" class="newsletter-input">
+                    <label class="float-right" for="plain-text">Plain Text</label><br>
+
+                    <label id="textarea-label" for="other-topics">Other topics you'd like to hear about</label>
+                    <textarea id="other-topics" name="other-topics" placeholder="Enter Text Here...."></textarea>
+            </fieldset>
+
+            <button type="submit" class="button">Sign Up</button>
+            
+   <footer class="text-center">Copyright The Code Review</footer>
+  </body>
+  
+</html>

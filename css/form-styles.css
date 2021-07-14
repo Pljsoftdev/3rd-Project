@@ -6,7 +6,7 @@
 
 html {
     font-size: 18px;
-    max-width: 768px;
+   /* max-width: 768px; */
     font-family: 'STIX Two Math', serif;
 }
 
@@ -26,7 +26,7 @@ body {
     color: rgb(129, 129, 129);
     font-family: 'STIX Two Math', serif;
     font-size: 16px;
-    max-width: 100%;
+    
 }
 
 footer {
@@ -147,6 +147,10 @@ textarea:hover {
         margin-right: auto;
     }
 
+    form {
+        max-width: 768px;
+    }
+    
    label {
        width: 22%;
        display: inline-block;
@@ -160,6 +164,9 @@ textarea:hover {
         width: 75%;
     }
    
+    header {
+        width: 100%;
+    }
 } 
 
 
